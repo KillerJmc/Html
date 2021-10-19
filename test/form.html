@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <form action="form.html" method="get">
+    <label> 用户名：<input type="text" name="username" placeholder="请输入用户名"> <br> <br> </label>
+
+    <label> 密码：<input type="password" name="password" placeholder="请输入密码"> <br> <br> </label>
+
+    <label> 男 <input type="radio" name="sex" value="男"> </label>
+    <label> 女 <input type="radio" name="sex" value="女"> </label>
+    <label> 保密 <input type="radio" name="sex" value="保密" checked="checked"> <br> <br> </label>
+
+    <label>
+      籍贯：
+      <select name="province">
+        <option>山东</option>
+        <option selected="selected">福建</option>
+        <option>广州</option>
+      </select> <br> <br>
+    </label>
+
+    爱好：
+    <label> 吃饭 <input type="checkbox" name="hobby" value="吃饭"> </label>
+    <label> 睡觉 <input type="checkbox" name="hobby" value="睡觉"> </label>
+    <label> 打豆豆 <input type="checkbox" name="hobby" value="打豆豆"> <br> <br> </label>
+
+    个人简介：
+    <label> <textarea name="desc" cols="30" rows="10">666</textarea> <br> <br> </label>
+
+    <label> 上传文件：<input type="file"> <br> <br> </label>
+
+    <label> <input type="submit" value="提交"> </label>
+    <label> <input type="reset" value="重置"> </label>
+    <label> <input type="button" value="js按钮"> </label>
+  </form>
+
+</body>
+</html>
